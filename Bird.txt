@@ -1,0 +1,6 @@
+class Bird{
+
+public static void type(String[] brand){
+		System.out.println("The Bird brand name is" +brand);
+	}
+}

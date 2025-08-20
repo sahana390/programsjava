@@ -1,19 +1,7 @@
 class Hospital{
 
-String hospitalName;
-String location;
-int noOfpatient;
-Department department;
-
-public void getHospitalInfo(){
-	System.out.println("Hospital Info is been fetched.... ");
-	System.out.println("The hospitalName is:"+hospitalName);
-	System.out.println("The location is:"+location);
-	System.out.println("The noOfpatient is:"+noOfpatient);
-	
-	
-
-this.department.getDepartmentInfo();
+public static void checkUp(String patientName, int age, long PhoneNumber, String email, String disease){
+System.out.println("Started with check up");
+Doctor.treatment(patientName,age,disease);
 }
-
 }
